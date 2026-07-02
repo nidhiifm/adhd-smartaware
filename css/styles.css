@@ -1,5 +1,4 @@
-/* ADHD SmartAware — Custom Styles
-   Amrita Vidyalayam Brand Theme */
+/* ADHD BrightStart — Custom Styles*/
 
 :root {
   --primary: #1565C0;
@@ -699,4 +698,46 @@ body {
   .navbar-brand { font-size: 1rem; }
   .stat-number { font-size: 2.2rem; }
   .assessment-nav { flex-direction: column; align-items: stretch; }
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+/* Mobile */
+@media (max-width: 991.98px) {
+    .hero-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hero-image {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-image {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-image {
+        max-width: 260px;
+    }
+}
+
+.school-name {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
 }

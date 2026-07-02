@@ -26,7 +26,7 @@ function downloadPDFReport() {
   doc.rect(0, 0, pageWidth, 35, 'F');
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(20);
-  doc.text('ADHD SmartAware', pageWidth / 2, 15, { align: 'center' });
+  doc.text('Bright Start', pageWidth / 2, 15, { align: 'center' });
   doc.setFontSize(10);
   doc.text('AI-Powered Awareness & Early Screening Report', pageWidth / 2, 24, { align: 'center' });
 
@@ -115,6 +115,6 @@ function downloadPDFReport() {
     y += lines.length * 5 + 4;
   });
 
-  doc.save('ADHD-SmartAware-Report.pdf');
+  doc.save('Bright-Start-Report.pdf');
   showToast('PDF report downloaded successfully!');
 }

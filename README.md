@@ -1,8 +1,8 @@
-# 🧠 ADHD SmartAware
+# 🧠 ADHD Bright Start
 
-**An AI-Powered ADHD Awareness & Early Screening Assistant**
+**ADHD Awareness & Early Screening Assistant**
 
-Developed for the **INSPIRE MANAK Innovation Project** at **Amrita Vidyalayam**.
+Developed for the **CBSE SKILL EXPO Project** at **Amrita Vidyalayam Thuckalay**.
 
 > ⚠️ **Disclaimer:** This assessment is intended for educational awareness only. It cannot diagnose ADHD. Please consult a qualified healthcare professional for a comprehensive evaluation.
 
@@ -73,6 +73,4 @@ adhd-smartaware/
 └── README.md
 ```
 
-## License
 
-Educational project — Amrita Vidyalayam INSPIRE MANAK Innovation Project.

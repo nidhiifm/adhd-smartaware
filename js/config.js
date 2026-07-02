@@ -1,13 +1,13 @@
 /**
  * Application configuration and assessment data
- * ADHD SmartAware - INSPIRE MANAK Project
+ * ADHD BrightStart - CBSE SKILL EXPO Project
  */
 
 const APP_CONFIG = {
   studentName: 'A Sri Nidhi',
   studentClass: 'Class VIII B',
   school: 'Amrita Vidyalayam, Thuckalay',
-  project: 'INSPIRE MANAK PROJECT',
+  project: 'CBSE SKILL EXPO',
   disclaimer:
     'This assessment is intended for educational awareness only. It cannot diagnose ADHD. Please consult a qualified healthcare professional for a comprehensive evaluation.',
 };
@@ -110,13 +110,7 @@ const REFERENCES = [
     url: 'https://pubmed.ncbi.nlm.nih.gov/?term=ADHD+India+children',
     icon: 'fa-book-medical',
     desc: 'Published research on ADHD prevalence in Indian children.',
-  },
-  {
-    title: 'Amrita Vidyalayam',
-    url: 'https://www.amritaschool.edu.in/',
-    icon: 'fa-school',
-    desc: 'Amrita Vidyalayam — nurturing holistic education.',
-  },
+  }
 ];
 
 /** Inattentive profile recommendations */
